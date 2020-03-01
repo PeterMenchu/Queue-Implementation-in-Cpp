@@ -15,7 +15,7 @@ class Queue {
     public:
         Queue();
         void enqueue(int data);
-
+        void printQueue();
 };
 
 
