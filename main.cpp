@@ -22,9 +22,9 @@ int main() {
         if (operation == 1){ // push
             cout << "Enter an integer to add to the end of the queue: ";
             cin >> data;
-            q.enqueue(data);
+            q.enQueue(data);
         } else if (operation == 2){ // pop
-            //myStack.pop();
+            q.deQueue();
         } else if (operation == 3){ // print stack
             q.printQueue();
         } else { // exit
